@@ -1,6 +1,10 @@
 # AtpNewsIndia
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.9.
+## For Cross Origin Request we can use proxy as have been used in this project
+
+add proxy.config.json file with specifications of the blade app url e.g http://127.0.0.1:9000 in this case
+Replace start:'ng serve' with 'ng serve --proxy-config proxy.config.json' in angular.json file.
 
 ## Development server
 
